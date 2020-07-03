@@ -1,0 +1,142 @@
+body {
+    font-family: inherit;
+    padding: 30px;
+    font-style: oblique;
+    background-color: white;
+}
+
+.topbar {
+    padding: 20px;
+    background-color: darkslategray;
+}
+
+nav {
+    width: 100%;
+    margin-right: 10px;
+    background-color: white;
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5em;
+    list-style-type: none;
+    margin: 0 auto;
+    color: teal;
+
+}
+.nav-link {
+    color:teal;
+    
+}
+
+.navbar-brand{
+    color:teal;
+    font-size:1.5em;
+    
+}
+
+
+
+.navbar-toggler {
+    color: teal;
+    font-size: 1.5em;
+}
+.navbar-bran {
+    color:teal;
+    transition: all .5s;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: teal;
+    padding: 5px 10px 10px 10px;
+}
+
+a:hover {
+    color: white;
+}
+
+
+.nav.name {
+    display: none;
+}
+
+li {
+    padding: 5px 10px 10px 10px;
+}
+
+
+
+header {
+    background-color: cadetblue;
+    text-align: center;
+    padding-top: 60px;
+    line-height: 1.5;
+
+}
+
+header.profile-image {
+    margin-top: 50px;
+    width: 150px;
+    border-radius: 50px;
+    border: 3px solid white;
+    transition: all .5s;
+}
+
+header .profile-image:hover {
+    transform: scale(1.5) rotate(5deg);
+}
+
+.tag {
+    background-color: #e2e2e2;
+    color: darkslategray;
+    padding: 10px;
+    border-radius: 5px;
+    display: table;
+    margin: 10px auto;
+
+}
+
+hr {
+    padding: 20px;
+
+}
+
+.sub-title {
+    background-color: gainsboro;
+    color: #e2e2e2;
+}
+
+
+.section-title {
+    text-transform: uppercase;
+}
+
+h2 {
+    background-color: gainsboro;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: teal;
+    border-color: cadetblue;
+    font-size: 2.4em;
+}
+
+main {
+    width: 90%;
+    font-size: 1.4em;
+    margin-left: 20px;
+    font-family: serif;
+    background-color: white;
+    color: teal;
+}
+
+footer {
+    background-color: darkslategray;
+    padding: 20px;
+    color: white;
+    font-size: 1.2em;
+
+}
